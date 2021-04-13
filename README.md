@@ -3,15 +3,11 @@
 ## Overview
 Explore various time series models to forecast the power consumption of a household.
 
-Local weather data can be downloaded from https://www.ncdc.noaa.gov/cdo-web/search
+Local weather data was downloaded from https://www.ncdc.noaa.gov/cdo-web/search
 
-Models uses for the following Python packages:
-- numpy
-- scipy
-- pandas
-- matplotlib
-- statsmodels
-- sklearn
-- pmdarima
+## Models
+- SARIMAX.ipynb: Jupyter notebook exploring forecasting with statistical models, ARIMA, SARIMA and SARIMAX
+Python packages: numpy, scipy, pandas, matplotlib, statsmodels, sklearn, pmdarima
 
-SARIMAX.ipynb: Jupyter notebook explores forecasting with ARIMA, SARIMA and SARIMAX models.
+- PROPHET.ipynb: Jupyter notebook exploring forecasting with Prophet
+Python packages: prophet, scipy, pandas, matplotlib, statsmodels, sklearn
